@@ -1,3 +1,21 @@
 .background1 {
-  background-image: url(https://picsum.photos/1500/800);
+  background-image: url(https://picsum.photos/1700/800);
+}
+.card-dark {
+  background: darkslategrey;
+  padding: 10px;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 20px;
+}
+.background-color-yellow {
+  background: yellow;
+  justify-content: space-around;
+  margin-bottom: ;
+}
+.navbar {
+  background: transparent;
+  background-image: none;
+  border-color: transparent;
+  box-shadow: none;
 }
