@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/82e8f37917.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -16,12 +20,14 @@
   <body>
     <div class="background1">
       <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand" href="#">Navbar</a>
+        <div class="row mb-5 pt-2">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-md">
+              <a class="navbar-brand"
+                >Welcome to Hogwarts <i class="fas fa-hat-wizard"></i
+              ></a>
               <button
-                class="navbar-toggler"
+                class="navbar-toggler button-color"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarSupportedContent"
@@ -29,18 +35,20 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon pt-1"
+                  ><i class="fas fa-glasses"></i
+                ></span>
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
                     <a class="nav-link" href="#"
-                      >Home <span class="sr-only">(current)</span></a
+                      >Welcome <span class="sr-only">(current)</span></a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Activities</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a
@@ -52,109 +60,157 @@
                       aria-haspopup="true"
                       aria-expanded="false"
                     >
-                      Dropdown
+                      The Four Houses
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div
+                      class="dropdown-menu drop-menu"
+                      aria-labelledby="navbarDropdown"
+                    >
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Something else here</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link disabled"
-                      href="#"
-                      tabindex="-1"
-                      aria-disabled="true"
-                      >Disabled</a
-                    >
-                  </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                  <input
-                    class="form-control mr-sm-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                  <button
-                    class="btn btn-outline-success my-2 my-sm-0"
-                    type="submit"
-                  >
-                    Search
-                  </button>
-                </form>
               </div>
             </nav>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-6 text-primary">
+          <div class="col-12 col-md-5 order-1 order-md-2 pr-3 pb-3 mb-3">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                src="https://www.youtube.com/embed/-dUVuF4RU0I"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 offset-md-1 order-2 order-md-1 pb-md-5 ">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores,
-              provident nostrum laudantium fugiat possimus excepturi alias in,
-              quibusdam ratione cum delectus, esse tempore incidunt earum minus
-              <!-- TODO put a button here -->
+              provident nostrum laudantium fugiat possi consectetur, adipisicing
+              elit. Natus autem rerum facere cuque quasi! Sunt nisi animi id
+              optio.
             </p>
-          </div>
-          <div class="col-6">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/J6yta5Gka94"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+            <button type="button" class="btn btn-primary btn-lg btn-block">
+              Block level button
+            </button>
           </div>
         </div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row background-color-yellow d-flex">
-        <div class="col-12 col-lg-2">
-          <img src="https://picsum.photos/100/100" alt="article" />
-          <div class="card-dark">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              quis vel eoum!
-            </p>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 col-md-4 d-flex flex-column">
+              <img
+                src="https://picsum.photos/100/100"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="article"
+              />
+              <div class="card-dark">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                  quis vel eoum!
+                </p>
+                <button type="button" class="btn btn-primary btn-sm">
+                  Small button
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column">
+              <img
+                src="https://picsum.photos/100/100"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="article"
+              />
+              <div class="card-dark">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                  cupiditate laboriosae!
+                </p>
+                <button type="button" class="btn btn-primary btn-sm">
+                  Small button
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column">
+              <img
+                src="https://picsum.photos/100/100"
+                class="img-fluid"
+                style="object-fit: contain"
+                alt="article"
+              />
+              <div class="card-dark">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                  cupiditate laboe!
+                </p>
+                <button type="button" class="btn btn-primary btn-sm">
+                  Small button
+                </button>
+              </div>
+            </div>
           </div>
-          <!--TODO put button here  -->
         </div>
-        <div class="col-12 col-lg-2">
-          <img src="https://picsum.photos/100/100" alt="article" />
-          <div class="card-dark">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              cupiditate laboriosae!
-            </p>
-          </div>
-          <!--TODO put button here  -->
-        </div>
-        <div class="col-12 col-lg-2">
-          <img src="https://picsum.photos/100/100" alt="article" />
-          <div class="card-dark">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              cupiditate laboe!
-            </p>
-          </div>
-          <!--TODO put button here  -->
-        </div>
+        <div class="col-12 empty-box p-5">Empty box</div>
       </div>
     </div>
+    <hr />
     <div class="container-fluid">
       <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
-        <div class="col-12"></div>
+        <div
+          class="col-12 col-md-4 offset-md-1 my-5 mr-5 align-self-center justify-content-center"
+        >
+          <img
+            class="w-100"
+            src="https://picsum.photos/450/300"
+            alt="pleasework"
+          />
+        </div>
+        <div class="col-12 col-md-6 mt-5 align-self-center text-primary ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aut,
+          laboriosam a incidunt quae sunt dolore illum consequuntur asperiores
+          ea eligendi maiores quod nostrum non sit deserunt, ducimus, tenetur
+          id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+          esse? Beatae dolorem, ipsum, molestias architecto aliquam cum
+          repudiandae nostrum voluptatibus sapiente assumenda corporis amet
+          perferendis animi accusantium sunt deleniti molestiae! Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Corporis dolores illum
+          ut unde! Voluptas facilis numquam repellat, nam sapiente distinctio
+          tempora ducimus quidem. Magni provident facilis ut odit adipisci
+          sapiente?
+        </div>
+        <div class="col-12 logo-bottom">
+          <img src="harry-potter-logo.png" alt="pleasework" />
+        </div>
       </div>
-      <div class="row">
-        <div class="col-2"></div>
-        <div class="col-2"></div>
+      <div class="row bg-black">
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start flex-column flex-md-row mt-2 mb-0 mt-md-4"
+        >
+          <p>
+            <i class="fas fa-magic fa-lg"></i>Customize your very own magical
+            wand!
+          </p>
+        </div>
+        <div
+          class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end flex-column flex-md-row mt-0 mb-1 mt-md-4"
+        >
+          <p>
+            <i class="fas fa-quidditch fa-lg"></i>Buy your own broom here and
+            start flying today!
+          </p>
+        </div>
       </div>
     </div>
 

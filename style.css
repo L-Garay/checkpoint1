@@ -1,6 +1,9 @@
 .background1 {
-  background-image: url(https://picsum.photos/1700/800);
+  background-image: url(https://cdnb.artstation.com/p/assets/images/images/013/498/821/large/saby-menyhei-hogwartsinthesnow-final.jpg?1539869271);
+  background-position: center;
+  background-size: cover;
 }
+
 .card-dark {
   background: darkslategrey;
   padding: 10px;
@@ -18,4 +21,25 @@
   background-image: none;
   border-color: transparent;
   box-shadow: none;
+}
+.empty-box {
+  background: whitesmoke;
+}
+.logo-bottom {
+  display: flex;
+  justify-content: center;
+  background-image: url(http://giphygifs.s3.amazonaws.com/media/CkBzt6qXCCXw4/giphy.gif);
+  padding: 25px;
+  margin: 10px 0 0 0;
+}
+.bg-black {
+  background: black;
+  height: 12vh;
+  border-top-style: solid;
+  border-top-color: pink;
+  border-top-width: 5px;
+}
+.button-color {
+  border-style: solid;
+  border-color: black;
 }
