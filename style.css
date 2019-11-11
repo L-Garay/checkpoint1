@@ -1,32 +1,17 @@
-a:hover { color:rgb(174, 0, 1);
-
+a:visited {
+  color: rgb(223, 166, 11);
 }
-
-.background1 {
-  background-image: url(https://lenzpest.com/wp-content/uploads/2017/02/Maroon-Smokey-Background.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.header {
-  background: black;
-  color: rgb(238, 186, 48);
-  border-bottom: 5px solid rgb(238, 186, 48);
-}
-
-.card-dark {
-  background: rgb(223, 166, 11);
-  padding: 10px;
-  box-shadow: 1px 1px 2px #e7e7e7;
-  border-radius: 4px;
-  margin: 20px 20px;
+a:hover {
+  color: rgb(174, 0, 1);
+  text-decoration: none;
 }
 b {
   font-size: 1.5rem;
 }
-.background-color-black {
-  background: rgb(116, 0, 1);
-  justify-content: space-around;
-  margin-bottom: -75px;
+.background1 {
+  background-image: url(https://lenzpest.com/wp-content/uploads/2017/02/Maroon-Smokey-Background.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .navbar {
   background: transparent;
@@ -34,6 +19,51 @@ b {
   border-color: transparent;
   box-shadow: none;
 }
+.header {
+  background: black;
+  color: rgb(238, 186, 48);
+  border-bottom: 5px solid rgb(238, 186, 48);
+}
+.button-color {
+  border: 2px solid rgb(116, 0, 1);
+}
+.toggler-color {
+  color: rgb(116, 0, 1);
+}
+.navbar-color {
+  color: rgb(223, 166, 11);
+}
+.dropdown-menu {
+  background: rgb(116, 0, 1);
+}
+.dropdown-item {
+  color: rgb(223, 166, 11);
+}
+.dropdown-item:hover {
+  color: rgb(116, 0, 1);
+  background: rgb(223, 166, 11);
+}
+.text-primary1 {
+  color: rgb(238, 186, 48);
+  text-shadow: 0 0 10px black;
+}
+.big-button {
+  border: 2px solid rgb(223, 166, 11);
+}
+
+.background-color-black {
+  background: rgb(116, 0, 1);
+  justify-content: space-around;
+  margin-bottom: -75px;
+}
+.card-dark {
+  background: rgb(223, 166, 11);
+  padding: 10px;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+  margin: 20px 20px;
+}
+
 .empty-box {
   background: black;
 }
@@ -51,38 +81,22 @@ b {
   border-top: 5px solid rgb(238, 186, 48);
   color: rgb(238, 186, 48);
 }
-
-.button-color {
-  border: 2px solid rgb(116, 0, 1);
+.spillover {
+  position: absolute;
+  transform: translate(83px, -5px);
+  background: wheat;
+  color: rgb(174, 0, 1);
+  border: 2px solid rgb(174, 0, 1);
 }
-.toggler-color {
-  color: rgb(116, 0, 1);
+.card-images {
+  border-radius: 15%;
 }
-.navbar-color {
-  color: rgb(223, 166, 11);
-}
-.dropdown-menu {
-  background: rgb(116, 0, 1);
-}
-.dropdown-item {
-  color:rgb(223, 166, 11);
-}
-.dropdown-item:hover {
-  color: rgb(116, 0, 1);
-  background: rgb(223, 166, 11)
-}
-.big-button {
-  border: 2px solid rgb(223, 166, 11);
-
-}
-
 .background-black {
   background-image: linear-gradient(black, maroon);
   border-top: 5px solid rgb(238, 186, 48);
 }
-.text-primary1{
-  color: rgb(238, 186, 48);
-  text-shadow: 0 0 10px black;
+.empty-box {
+  height: 200px;
 }
 hr {
   border: 3px solid black;
@@ -91,23 +105,7 @@ hr {
 .border-btm {
   border-bottom: 1px solid rgb(238, 186, 48);
 }
-.spillover {
-  position: absolute;
-  transform: translate(83px, -5px);
-  background: wheat;
-  color: rgb(174, 0, 1);
-  border: 2px solid rgb(174, 0, 1);
-}
-.big-button {
-  dsfadsf
-}
-.card {
-  background-color: black;
-}
-.empty-box {
-  height: 200px;
-}
 
-.card-images {
-  border-radius: 15%;
+.footer-logo {
+  padding-right: 10px;
 }
