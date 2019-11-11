@@ -75,21 +75,24 @@ b {
   margin: 10px 0 0 0;
   border-top: 5px solid rgb(238, 186, 48);
 }
+/* REVIEW dont set fixed heights */
 .bg-black {
   background: black;
-  height: 12vh;
   border-top: 5px solid rgb(238, 186, 48);
   color: rgb(238, 186, 48);
 }
+/* REVIEW dont guess at pixel sizes use 50% left and translate */
 .spillover {
   position: absolute;
-  transform: translate(83px, -5px);
+  left: 50%;
+  transform: translate(-50%, -5px);
   background: wheat;
   color: rgb(174, 0, 1);
   border: 2px solid rgb(174, 0, 1);
 }
 .card-images {
   border-radius: 15%;
+  object-fit: contain;
 }
 .background-black {
   background-image: linear-gradient(black, maroon);
