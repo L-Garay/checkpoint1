@@ -1,7 +1,16 @@
+a:hover { color:rgb(174, 0, 1);
+
+}
+
 .background1 {
-  background-image: url(https://cdnb.artstation.com/p/assets/images/images/013/498/821/large/saby-menyhei-hogwartsinthesnow-final.jpg?1539869271);
+  background-image: url(https://lenzpest.com/wp-content/uploads/2017/02/Maroon-Smokey-Background.jpg);
   background-position: center;
   background-size: cover;
+}
+.header {
+  background: black;
+  color: rgb(238, 186, 48);
+  border-bottom: 5px solid rgb(238, 186, 48);
 }
 
 .card-dark {
@@ -10,6 +19,9 @@
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
   margin: 20px 20px;
+}
+b {
+  font-size: 1.5rem;
 }
 .background-color-black {
   background: rgb(116, 0, 1);
@@ -41,13 +53,36 @@
 }
 
 .button-color {
-  border-style: solid;
-  border-color: black;
+  border: 2px solid rgb(116, 0, 1);
+}
+.toggler-color {
+  color: rgb(116, 0, 1);
+}
+.navbar-color {
+  color: rgb(223, 166, 11);
+}
+.dropdown-menu {
+  background: rgb(116, 0, 1);
+}
+.dropdown-item {
+  color:rgb(223, 166, 11);
+}
+.dropdown-item:hover {
+  color: rgb(116, 0, 1);
+  background: rgb(223, 166, 11)
+}
+.big-button {
+  border: 2px solid rgb(223, 166, 11);
+
 }
 
 .background-black {
   background-image: linear-gradient(black, maroon);
   border-top: 5px solid rgb(238, 186, 48);
+}
+.text-primary1{
+  color: rgb(238, 186, 48);
+  text-shadow: 0 0 10px black;
 }
 hr {
   border: 3px solid black;
