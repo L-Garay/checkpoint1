@@ -5,18 +5,15 @@
 }
 
 .card-dark {
-  background: maroon;
+  background: rgb(223, 166, 11);
   padding: 10px;
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
   margin: 20px 20px;
 }
 .background-color-black {
-  background: black;
+  background: rgb(116, 0, 1);
   justify-content: space-around;
-  border-style: solid;
-  border-color: maroon;
-  border-width: 0 50px 0 50px;
   margin-bottom: -75px;
 }
 .navbar {
@@ -26,7 +23,7 @@
   box-shadow: none;
 }
 .empty-box {
-  background: darkslategray;
+  background: black;
 }
 .logo-bottom {
   display: flex;
@@ -34,13 +31,13 @@
   background-image: url(http://giphygifs.s3.amazonaws.com/media/CkBzt6qXCCXw4/giphy.gif);
   padding: 25px;
   margin: 10px 0 0 0;
-  border-top: 5px solid white;
+  border-top: 5px solid rgb(238, 186, 48);
 }
 .bg-black {
   background: black;
   height: 12vh;
-  border-top: 5px solid white;
-  color: white;
+  border-top: 5px solid rgb(238, 186, 48);
+  color: rgb(238, 186, 48);
 }
 
 .button-color {
@@ -49,23 +46,33 @@
 }
 
 .background-black {
-  background-image: linear-gradient(black, white);
-  border-top: 5px solid white;
+  background-image: linear-gradient(black, maroon);
+  border-top: 5px solid rgb(238, 186, 48);
 }
 hr {
-  border: 6vh solid black;
+  border: 3px solid black;
   margin: 0;
 }
 .border-btm {
-  border-bottom: 5px solid white;
+  border-bottom: 1px solid rgb(238, 186, 48);
 }
 .spillover {
   position: absolute;
   transform: translate(83px, -5px);
+  background: wheat;
+  color: rgb(174, 0, 1);
+  border: 2px solid rgb(174, 0, 1);
+}
+.big-button {
+  dsfadsf
 }
 .card {
   background-color: black;
 }
 .empty-box {
-  height: 100px;
+  height: 200px;
+}
+
+.card-images {
+  border-radius: 15%;
 }
