@@ -5,15 +5,19 @@
 }
 
 .card-dark {
-  background: darkslategrey;
+  background: maroon;
   padding: 10px;
   box-shadow: 1px 1px 2px #e7e7e7;
   border-radius: 4px;
   margin: 20px 20px;
 }
-.background-color-yellow {
-  background: yellow;
+.background-color-black {
+  background: black;
   justify-content: space-around;
+  border-style: solid;
+  border-color: maroon;
+  border-width: 0 50px 0 50px;
+  margin-bottom: -75px;
 }
 .navbar {
   background: transparent;
@@ -22,7 +26,7 @@
   box-shadow: none;
 }
 .empty-box {
-  background: whitesmoke;
+  background: darkslategray;
 }
 .logo-bottom {
   display: flex;
@@ -30,15 +34,38 @@
   background-image: url(http://giphygifs.s3.amazonaws.com/media/CkBzt6qXCCXw4/giphy.gif);
   padding: 25px;
   margin: 10px 0 0 0;
+  border-top: 5px solid white;
 }
 .bg-black {
   background: black;
   height: 12vh;
-  border-top-style: solid;
-  border-top-color: pink;
-  border-top-width: 5px;
+  border-top: 5px solid white;
+  color: white;
 }
+
 .button-color {
   border-style: solid;
   border-color: black;
+}
+
+.background-black {
+  background-image: linear-gradient(black, white);
+  border-top: 5px solid white;
+}
+hr {
+  border: 6vh solid black;
+  margin: 0;
+}
+.border-btm {
+  border-bottom: 5px solid white;
+}
+.spillover {
+  position: absolute;
+  transform: translate(83px, -5px);
+}
+.card {
+  background-color: black;
+}
+.empty-box {
+  height: 100px;
 }
